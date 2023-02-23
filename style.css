@@ -1,0 +1,151 @@
+body{
+    background-color: white;
+}
+
+
+.title{
+    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+h2{
+  font-size:60px;
+  color:red;
+}
+.titleimg{
+  height: 250px;
+  width: 400px
+}
+.container{
+        display: flex;
+    justify-content: center;
+    
+        
+    
+}
+.input{
+    padding:5px;
+    
+
+
+}
+.header{
+  display:flex;
+  padding:12px;
+  justify-content: flex-end;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  padding:12px;
+  gap: 9px;
+  justify-content: space-between;
+}
+.nav-item{
+  
+  width:60px;
+}
+
+input {
+    width: 45%;
+     border-radius: 26px; 
+    border: 1px solid rgb(145, 137, 137);
+    padding: 1% 6%;
+    margin: 1% 1%;
+    background-image: url(search.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    outline: 0;
+    background-position: 12px; 
+    background-size: 16px; 
+    
+  }
+  
+  .app-items{
+    width: 60px;
+    height: 60px;
+    padding: 35px; ;
+  }
+  .apps{
+    justify-content: center; 
+    display: flex;
+    flex-direction: row;
+    padding:8px;
+    padding-left: 400px;
+  
+    justify-content: left;
+    align-items: center;
+    
+    
+        width: 500px;
+        flex-wrap: wrap;
+        gap: 40px;
+
+  }
+  /* img.item-apps  {
+    width: 50px;
+    height: 50px;
+    background-color: #e65525;
+    border-radius:50%;
+    box-shadow: 0 0 0 3px #e78267;
+    background-image: url(calender.png);
+} */
+/* img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    box-shadow: 0 0 0 1px #fcf7f5;
+    width: 30px;
+    height: 30px;
+    background-color: #fefcfb;
+    border-radius:50%;
+
+} */
+
+.item-apps img {
+  height: 35px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: whitesmoke;/* rgba(255, 255, 255, 0.991);*/
+}
+.item-apps{
+  display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        width: 80px;
+        /* border: 1px solid silver; */
+        gap: 6px;
+}
+
+
+/* .apps{
+  align-items: center;
+    background-color: var(--tile-background-color);
+    border-radius: 50%;
+    display: flex;
+    flex-shrink: 0;
+    height: var(--icon-size);
+    justify-content: center;
+    margin-top: 16px;
+    width: var(--icon-size);
+    flex-wrap: wrap;
+        gap: 6px;
+} */
+
+/* .apps{
+  box-shadow: rgba(100, 100, 111, 0.2) 1px 2px 2px 1px;
+} */
+
+
+.userimg{
+  height: 30px;
+  width: 60px;
+}
+
+.micimg{
+
+height: 20px;
+  width: 20px;
+  display:flex;
+  justify-content: center;
+}
